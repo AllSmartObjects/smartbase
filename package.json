@@ -1,0 +1,30 @@
+{
+  "name": "smartbase",
+  "version": "0.0.1",
+  "description": "Create a smartobject by using plugins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllSmartObjects/smartbase.git"
+  },
+  "keywords": [
+    "smartobject"
+  ],
+  "author": "Simen Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AllSmartObjects/smartbase/issues"
+  },
+  "homepage": "https://github.com/AllSmartObjects/smartbase#readme",
+  "dependencies": {
+    "smartobject-watchify": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "smartobject": "^1.4.3"
+  }
+}
