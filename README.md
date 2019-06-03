@@ -7,7 +7,7 @@ smartbase is a base board for you to create a smartobject with plugins.
 [![Travis branch](https://img.shields.io/travis/AllSmartObjects/smartbase/master.svg?maxAge=2592000)](https://travis-ci.org/AllSmartObjects/smartbase)
 [![npm](https://img.shields.io/npm/v/smartbase.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase)
 [![PyPI](https://img.shields.io/pypi/status/Django.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase)
-[![npm](https://img.shields.io/npm/l/smartbase.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase)
+[![npm](https://img.shields.io/npm/l/smartbase.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase) [![Greenkeeper badge](https://badges.greenkeeper.io/AllSmartObjects/smartbase.svg)](https://greenkeeper.io/)
 
 <br />
 
