@@ -8,13 +8,13 @@ module.exports = function smartbase (so, plugins) {
   so.hal = so.hal || {}
 
   // prepare hal and setup functions
-  for (let name in plugins) {
-    if (plugins.hasOwnProperty(name)) { so.hal[name] = plugins[name].handle }
+  for (const name in plugins) {
+    if (Object.prototype.hasOwnProperty.call(plugins, name)) { so.hal[name] = plugins[name].handle }
   }
 
   // initialize the smart object
-  for (let name in plugins) {
-    if (plugins.hasOwnProperty(name)) {
+  for (const name in plugins) {
+    if (Object.prototype.hasOwnProperty.call(plugins, name)) {
       const plugin = plugins[name]
       const { oid } = plugin
       const { iid } = plugin
@@ -31,7 +31,7 @@ module.exports = function smartbase (so, plugins) {
   }
 
   for (const ievt in iidEvents) {
-    if (iidEvents.hasOwnProperty(ievt)) {
+    if (Object.prototype.hasOwnProperty.call(iidEvents, ievt)) {
       // Bridge to alias event
       so.onChange(ievt, (rRec) => { // { iPath, rid: rid, cVal: currentValue, pVal: oldValue }
         const bridgedEvt = `${iidEvents[rRec.iPath]}/${rRec.rid}`
