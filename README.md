@@ -1,13 +1,13 @@
 smartbase
 ========================
-smartbase is a base board for you to create a smartobject with plugins.  
+smartbase is a base board for you to create a smartobject with plugins.
 
-[![NPM](https://nodei.co/npm/smartbase.png?downloads=true)](https://nodei.co/npm/smartbase/)  
+[![NPM](https://nodei.co/npm/smartbase.png?downloads=true)](https://nodei.co/npm/smartbase/)
 
 [![Travis branch](https://img.shields.io/travis/AllSmartObjects/smartbase/master.svg?maxAge=2592000)](https://travis-ci.org/AllSmartObjects/smartbase)
 [![npm](https://img.shields.io/npm/v/smartbase.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase)
 [![PyPI](https://img.shields.io/pypi/status/Django.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase)
-[![npm](https://img.shields.io/npm/l/smartbase.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase) 
+[![npm](https://img.shields.io/npm/l/smartbase.svg?maxAge=2592000)](https://www.npmjs.com/package/smartbase)
 [![Greenkeeper badge](https://badges.greenkeeper.io/AllSmartObjects/smartbase.svg)](https://greenkeeper.io/)
 [![Coverage Status](https://coveralls.io/repos/github/AllSmartObjects/smartbase/badge.svg?branch=master)](https://coveralls.io/github/AllSmartObjects/smartbase?branch=master)
 
@@ -15,14 +15,14 @@ smartbase is a base board for you to create a smartobject with plugins.
 
 ## 1. Overview
 
-This module helps developers integrate plugins into a smartobject. **smartbase** is like a carrier and plugins are various peripherals such as a LED, a temperature sensor, a switch to be put into the smartobject. In addition, **smartbase ** makes the smartobject listenable as well.  
+This module helps developers integrate plugins into a smartobject. **smartbase** is like a carrier and plugins are various peripherals such as a LED, a temperature sensor, a switch to be put into the smartobject. In addition, **smartbase ** makes the smartobject listenable as well.
 
 <br />
 
 ## 2. Installation
 
 > $ npm install smartbase --save
-  
+
 <br />
 
 ## 3. Basic Usage
@@ -40,7 +40,7 @@ so = smartbase(so, {
     led1: ledPlugin({ iid: 1, pin: 11, active: 'low' })
 });
 
-// attach a listener to receive the change from resource 'lightCtrl/0/onOff' 
+// attach a listener to receive the change from resource 'lightCtrl/0/onOff'
 so.onChange('lightCtrl/0/onOff', function (cVal, pVal) {
     console.log('A listener to this resource');
     console.log(cVal);  // current value
