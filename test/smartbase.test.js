@@ -2,7 +2,7 @@
 const chai = require('chai')
 
 const { expect } = chai
-const SmartObject = require('smartobject')
+const SmartObject = require('@lwmqn/smartobject')
 const smartbase = require('../index.js')
 
 describe('Functional Check', () => {

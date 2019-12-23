@@ -1,5 +1,5 @@
 
-const soWatchify = require('smartobject-watchify')
+const soWatchify = require('@lwmqn/smartobject-watchify')
 
 module.exports = function smartbase (so, plugins) {
   const iidEvents = {}
