@@ -1,6 +1,6 @@
 {
   "name": "@lwmqn/smartbase",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Create a smartobject by using plugins.",
   "main": "index.js",
   "scripts": {
